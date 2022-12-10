@@ -9,14 +9,17 @@ import _02_factory_method.snack.Snack;
 
 public class SnackBar {
     public static void main(String[] args) {
-        makeSnack(new ChocolateFactory());
-        makeSnack(new CandyFactory());
-        makeSnack(new CookieFactory());
-        makeSnack(new IceCreamFactory());
+        SnackBar snackBar = new SnackBar();
+        snackBar.makeSnack(new ChocolateFactory());
+        snackBar.makeSnack(new CandyFactory());
+        snackBar.makeSnack(new CookieFactory());
+        snackBar.makeSnack(new IceCreamFactory());
     }
 
-    static void makeSnack(SnackFactory snackFactory) {
+    public Snack makeSnack(SnackFactory snackFactory) {
         Snack snack = snackFactory.makeSnack();
         System.out.println(snack);
+
+        return snack;
     }
 }

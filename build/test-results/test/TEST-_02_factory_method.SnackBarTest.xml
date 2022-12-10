@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="_02_factory_method.SnackBarTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-10T15:40:05" hostname="gimseol-yeong-ui-MacBookPro.local" time="0.038">
+  <properties/>
+  <testcase name="객체에 따라 다른 스낵이 생성된다." classname="_02_factory_method.SnackBarTest" time="0.033"/>
+  <testcase name="객체에 따라 다른 스낵이 생성된다." classname="_02_factory_method.SnackBarTest" time="0.001"/>
+  <testcase name="객체에 따라 다른 스낵이 생성된다." classname="_02_factory_method.SnackBarTest" time="0.001"/>
+  <testcase name="객체에 따라 다른 스낵이 생성된다." classname="_02_factory_method.SnackBarTest" time="0.0"/>
+  <system-out><![CDATA[스낵을 만듭니다.
+스낵이 만들어 졌습니다. 이름: 가나 초콜렛
+Snack{name='가나 초콜렛'}
+스낵을 만듭니다.
+스낵이 만들어 졌습니다. 이름: 츄파춥스
+Snack{name='츄파춥스'}
+스낵을 만듭니다.
+스낵이 만들어 졌습니다. 이름: 촉촉한 초코칩
+Snack{name='촉촉한 초코칩'}
+스낵을 만듭니다.
+스낵이 만들어 졌습니다. 이름: 메로나
+Snack{name='메로나'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
