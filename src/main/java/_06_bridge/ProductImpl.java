@@ -11,4 +11,9 @@ public class ProductImpl implements Product {
     public void sell() {
         System.out.println(type.getName() + "을 판매하였습니다.");
     }
+
+    @Override
+    public String getProductName() {
+        return type.getName();
+    }
 }
